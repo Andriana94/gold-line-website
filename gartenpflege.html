@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gartenpflege</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:
+linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+url("garten-bg.jpg");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+color:white;
+padding:60px 6%;
+}
+
+.hero-text{
+max-width:950px;
+background:rgba(0,0,0,0.35);
+padding:35px;
+border-radius:25px;
+backdrop-filter:blur(6px);
+border:1px solid rgba(216,179,106,0.35);
+margin-bottom:50px;
+}
+
+.hero-text h1{
+font-size:60px;
+color:#d8b36a;
+margin-bottom:20px;
+}
+
+.intro{
+font-size:22px;
+line-height:1.8;
+max-width:900px;
+}
+
+.images{
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+margin-bottom:50px;
+}
+
+.images img{
+width:300px;
+height:220px;
+object-fit:cover;
+border-radius:18px;
+border:1px solid rgba(216,179,106,0.4);
+}
+.box{
+padding:30px;
+background:rgba(0,0,0,0.30);
+backdrop-filter:blur(8px);
+border:1px solid rgba(216,179,106,0.35);
+border-radius:20px;
+width:fit-content;
+max-width:900px;
+margin-bottom:40px;
+}
+
+.box h2{
+color:#d4af37;
+
+display:inline-block;
+padding:12px 22px;
+
+border:1px solid rgba(216,179,106,0.35);
+border-radius:14px;
+
+background:rgba(0,0,0,0.25);
+backdrop-filter:blur(6px);
+}
+
+.box ul{
+padding-left:25px;
+line-height:1.8;
+}
+
+.quick-contact{
+margin:40px auto;
+max-width:520px;
+text-align:center;
+}
+
+.quick-contact h3{
+margin-bottom:20px;
+color:white;
+font-size:32px;
+}
+
+.quick-btn{
+display:block;
+text-align:center;
+padding:14px;
+margin-bottom:15px;
+border-radius:12px;
+font-weight:bold;
+text-decoration:none;
+background:#d4af37;
+color:black;
+max-width:500px;
+margin:15px auto;
+}
+
+.quick-btn.outline{
+background:transparent;
+border:1px solid #d4af37;
+color:white;
+}
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+align-items:flex-start;
+gap:20px;
+}
+
+nav{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.hero-content h1{
+font-size:38px;
+line-height:1.1;
+}
+
+.hero-box h2{
+font-size:30px;
+}
+
+.contact-form-box{
+position:static;
+transform:none;
+width:100%;
+margin-top:30px;
+}
+
+.buttons{
+flex-direction:column;
+width:100%;
+}
+
+.call-btn,
+.whatsapp-btn{
+text-align:center;
+}
+
+.grid{
+grid-template-columns:1fr;
+}
+
+.card h3{
+font-size:22px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero-text">
+<h1>Gartenpflege</h1>
+
+<p class="intro">
+Ein gepflegter Garten sorgt für einen schönen ersten Eindruck
+und schafft eine angenehme Atmosphäre rund ums Haus.
+Wir kümmern uns zuverlässig um Rasen, Hecken, Beete und Außenbereiche.
+</p>
+</div>
+
+<div class="images">
+<img src="garten1.jpg">
+<img src="garten2.jpg">
+<img src="garten3.jpg">
+<img src="garten4.jpg">
+</div>
+
+<div class="box">
+<h2>Unsere Leistungen</h2>
+
+<ul>
+<li>Rasen mähen und Rasenpflege</li>
+<li>Hecken schneiden</li>
+<li>Unkraut entfernen und Beete pflegen</li>
+<li>Laub entfernen</li>
+<li>Pflege von Grünflächen</li>
+<li>Reinigung und Ordnung im Außenbereich</li>
+</ul>
+</div>
+
+<div class="box">
+<h2>Warum Gold Line Service?</h2>
+
+<ul>
+<li>Zuverlässige und saubere Arbeit</li>
+<li>Gepflegte Ergebnisse</li>
+<li>Flexible Termine</li>
+<li>Professionelles Auftreten</li>
+<li>Ideal für private Häuser, Wohnanlagen und Außenbereiche</li>
+</ul>
+</div>
+
+<div class="quick-contact">
+
+<div style="text-align:center;">
+
+<h3>Jetzt unverbindlich anfragen</h3>
+
+<a href="https://wa.me/4917666892900" class="quick-btn">
+WhatsApp schreiben
+</a>
+
+<a href="mailto:goldlineservice.info@gmail.com" class="quick-btn outline">
+E-Mail senden
+</a>
+
+</div>
+
+</div>
+</body>
+</html>
