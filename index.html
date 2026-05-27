@@ -26,12 +26,14 @@ overflow-x:hidden;
 }
 
 .hero{
-padding:20px 5%;
-min-height:auto;
-
+min-height:100vh;
+background:
+linear-gradient(to right, rgba(0,0,0,0.88) 35%, rgba(0,0,0,0.25)),
+url("hero.jpg");
 background-size:cover;
-background-position:65% center;
-background-repeat:no-repeat;
+background-position:center;
+padding:40px 6%;
+position:relative;
 }
 
 header{
@@ -346,11 +348,9 @@ background:#000;
 .hero{
 padding:20px 5%;
 min-height:auto;
-
-background-position:75% center;
-background-size:contain;
-background-repeat:no-repeat;
+background-position:50% center;
 }
+
 
 header{
 flex-direction:column;
